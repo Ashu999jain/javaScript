@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inserting new element</title>
+</head>
+<body>
+<div id="abc">
+	<h1> new content added is paragraph tag</h1>
+
+</div>
+<script type="text/javascript">
+	var para = document.createElement('p');
+	var data = document.createTextNode("paragragh tag is created");
+	para.appendChild(data);
+	var ele = document.getElementById('abc');
+	ele.appendChild(para);
+	 window.location.assign("https://www.google.com");
+	 window.history.back();
+
+</script>
+</body>
+</html>

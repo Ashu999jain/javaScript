@@ -7,12 +7,21 @@
 	<p id="demo"></p>
 
 <script type="text/javascript">
-	try {
-  adddlert("Welcome guest!");
-}
-catch(err) {
- alert("undefined method");
-}
+	  try {
+	  	var b =0;
+	  	var a = 56;
+                  if ( b == 0 ) {
+                     throw Error(  "Divide by zero error." ); 
+                  } else {
+                     var c = a / b;
+                  }
+              }
+              catch(error)
+              { var x = error.message;
+
+                 document.write(x);
+              }
+
 </script>
 </body>
 </html>
